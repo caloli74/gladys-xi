@@ -1,0 +1,11 @@
+{
+  "name": "gladys-xi",
+  "version": "1.0.0",
+  "description": "Gladys module to control xi",
+  "main": "index.js",
+  "keywords": [
+    "Gladys",
+    "xi"
+  ],
+  "author": "Oliv"
+}
