@@ -4,5 +4,6 @@ module.exports = function (sails) {
 
     return {
         install: {}
+        .then({})
     };
 };
