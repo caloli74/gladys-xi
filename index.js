@@ -8,7 +8,7 @@ module.exports = function (sails) {
     return {
         install: install,
         exec: exec,
-        work: work
+        work: work,
         work2: work2
     };
 };
