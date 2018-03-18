@@ -1,13 +1,15 @@
 module.exports = function (sails) {
 
-    var command = require('./lib/command.js');
+    var gateway = require('./lib/gateway.js');
     var install = require('./lib/install.js');
+    var init = require('./lib/init.js');
     var exec = require('./lib/exec.js');
     var work = require('./lib/work.js');
 
     return {
-        command: command,
+        gateway: gateway,
         install: install,
+        init: init,
         exec: exec,
         work: work
     };
