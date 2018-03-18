@@ -1,14 +1,14 @@
 module.exports = function (sails) {
 
+    var command = require('./lib/command.js');
     var install = require('./lib/install.js');
     var exec = require('./lib/exec.js');
     var work = require('./lib/work.js');
-    var work2 = require('./lib/work2.js');
 
     return {
+        command: command,
         install: install,
         exec: exec,
-        work: work,
-        work2: work2
+        work: work
     };
 };
