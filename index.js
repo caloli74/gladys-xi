@@ -8,7 +8,6 @@ module.exports = function (sails) {
     var listen = require('./lib/listen.js');
 
     gladys.on('ready', function(){
-        console.log('gladys ready');
         listen();
     });
 
