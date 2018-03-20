@@ -6,7 +6,7 @@ module.exports = function (sails) {
     var exec = require('./lib/exec.js');
     var init = require('./lib/init.js');
     var work = require('./lib/work.js');
-    var gateway2 = require('./lib/gateway2.js');
+    var gateway_old = require('./lib/gateway_old.js');
 
     gladys.on('ready', function(){
         listen();
@@ -18,6 +18,6 @@ module.exports = function (sails) {
         exec: exec,
         init: init,
         work: work,
-        gateway2: gateway2
+        gateway_old: gateway_old
     };
 };
