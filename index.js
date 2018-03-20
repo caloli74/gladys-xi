@@ -5,6 +5,7 @@ module.exports = function (sails) {
     var init = require('./lib/init.js');
     var exec = require('./lib/exec.js');
     var work = require('./lib/work.js');
+    var work2 = require('./lib/work2.js');
     var listen = require('./lib/listen.js');
 
     gladys.on('ready', function(){
@@ -16,6 +17,7 @@ module.exports = function (sails) {
         install: install,
         init: init,
         exec: exec,
-        work: work
+        work: work,
+        work2: work2
     };
 };
