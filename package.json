@@ -1,11 +1,11 @@
 {
-  "name": "gladys-xi",
+  "name": "gladys-xiomi-gateway",
   "version": "1.0.0",
-  "description": "Gladys module to control xi",
+  "description": "Gladys module to control xiaomi gateway",
   "main": "index.js",
   "keywords": [
     "Gladys",
-    "xi"
+    "xiaomi gateway"
   ],
   "author": "Oliv"
 }
