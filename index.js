@@ -5,15 +5,16 @@ module.exports = function (sails) {
     var install = require('./lib/install.js');
     var exec = require('./lib/exec.js');
     var setColor = require('./lib/setColor.js');
+    var playSound = require('./lib/playSound.js');
 
     gladys.on('ready', function(){
         listen();
     });
 
     return {
-        gateway: gateway,
         install: install,
         exec: exec,
-        setColor: setColor
+        setColor: setColor,
+        playSound: playSound
     };
 };
