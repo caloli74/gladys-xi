@@ -4,6 +4,7 @@ module.exports = function (sails) {
     var listen = require('./lib/listen.js');
     var install = require('./lib/install.js');
     var exec = require('./lib/exec.js');
+    var setColor = require('./lib/setColor.js');
 
     gladys.on('ready', function(){
         listen();
@@ -12,6 +13,7 @@ module.exports = function (sails) {
     return {
         gateway: gateway,
         install: install,
-        exec: exec
+        exec: exec,
+        setColor: setColor
     };
 };
