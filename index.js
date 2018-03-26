@@ -1,6 +1,6 @@
 module.exports = function (sails) {
 
-    var gateway = require('./lib/gateway.js');
+    var shared = require('./lib/shared.js');
     var listen = require('./lib/listen.js');
     var install = require('./lib/install.js');
     var exec = require('./lib/exec.js');
@@ -12,6 +12,7 @@ module.exports = function (sails) {
     });
 
     return {
+        shared: shared,
         install: install,
         exec: exec,
         setColor: setColor,
