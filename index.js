@@ -8,7 +8,7 @@ module.exports = function (sails) {
     var playSound = require('./lib/playSound.js');
 
     gladys.on('ready', function(){
-        //listen();
+        listen();
     });
 
     return {
